@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('loop/',views.loop),
     path('throw/',views.throw),
+    path('catch/',views.catch),
 ]

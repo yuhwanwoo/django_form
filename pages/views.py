@@ -9,3 +9,6 @@ def loop(request):
         'nums':nums
     }
     return render(request,'loop.html',context)
+
+def throw(request):
+    return render(request,'throw.html')
